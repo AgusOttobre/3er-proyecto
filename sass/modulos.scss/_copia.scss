@@ -1,0 +1,271 @@
+@media (min-width: 320px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background: linear-gradient(rgb(211, 57, 185), transparent, blue);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-attachment: fixed;
+    font-style: italic;
+  }
+  header {
+    width: 100%;
+    margin-bottom: 0.625rem;
+  }
+  .header-nav h1 {
+    text-align: center;
+    letter-spacing: 0.3125rem;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-top: 1.25rem;
+  }
+  nav ul li {
+    letter-spacing: 0.3125rem;
+  }
+  .carousel-inner {
+    width: 100%;
+    height: auto;
+    margin-top: 1.25rem;
+  }
+  .carousel-item img {
+    height: 25rem;
+    width: 18.75rem;
+    object-fit: contain;
+  }
+  /*finaliza index*/
+  /*inicia nosotros*/
+  .div-nosotros {
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    width: 100%;
+    height: 31.25rem;
+    background-color: transparent;
+    height: auto;
+  }
+  .main-nstr {
+    margin-top: 9.375rem;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 6.25rem;
+  }
+  /*finaliza nosotros*/
+  /*inicio productos*/
+  .h-prod {
+    text-align: center;
+    margin-top: 6.25rem;
+    font-size: medium;
+  }
+  .container-fluid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.9375rem;
+  }
+  .container-sm {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px black;
+    width: 12.5rem;
+    height: 18.75rem;
+    margin-top: 0.9375rem;
+    text-align: center;
+  }
+  .container-sm img {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 0.625rem;
+  }
+  .container-sm p {
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 0.125rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .boton-prod {
+    background-color: rgb(46, 42, 42);
+    color: rgb(241, 234, 234);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .boton-prod .boton-prod:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+    box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.3);
+  }
+  /*finalizo productos*/
+  .div-dscrp {
+    color: rgb(0, 0, 0);
+  }
+  .footer {
+    margin-top: 0.9375rem;
+  }
+  .footer ul {
+    color: rgb(0, 0, 0);
+    margin-left: 1.5625rem;
+    letter-spacing: 0.125rem;
+    font-family: sans-serif;
+  }
+}
+@media (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background: linear-gradient(rgb(214, 151, 69), transparent, rgba(235, 163, 70, 0.945));
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-attachment: fixed;
+    font-style: italic;
+  }
+  header {
+    width: 100%;
+    margin-bottom: 0.625rem;
+  }
+  .header-nav h1 {
+    text-align: center;
+    letter-spacing: 0.3125rem;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-top: 1.5625rem;
+  }
+  nav ul li {
+    letter-spacing: 0.3125rem;
+  }
+  .carousel-inner {
+    width: 100%;
+    height: auto;
+    margin-top: 0.9375rem;
+  }
+  .carousel-item img {
+    height: 25rem;
+    width: 18.75rem;
+    object-fit: contain;
+  }
+  /*finaliza index*/
+  /*inicia nosotros*/
+  .div-nosotros {
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    width: 100%;
+    height: 31.25rem;
+    background-color: transparent;
+    height: auto;
+  }
+  .main-nstr {
+    margin-top: 9.375rem;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 6.25rem;
+  }
+  /*finaliza nosotros*/
+  /*inicio productos*/
+  .h-prod {
+    text-align: center;
+    margin-top: 6.25rem;
+    font-size: large;
+  }
+  .container-fluid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.125rem;
+    justify-content: space-around;
+  }
+  .container-sm {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px black;
+    width: 18.75rem;
+    height: 21.875rem;
+    text-align: center;
+  }
+  .container-sm img {
+    width: 9.375rem;
+    height: 9.375rem;
+    margin-top: 1.5625rem;
+  }
+  .container-sm p {
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 0.3125rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .boton-prod {
+    background-color: rgb(46, 42, 42);
+    color: rgb(241, 234, 234);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .boton-prod:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+    box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.3);
+  }
+  /*finalizo productos*/
+  .div-dscrp {
+    color: rgb(0, 0, 0);
+  }
+  footer {
+    margin-top: 6.25rem;
+  }
+  footer ul {
+    color: rgb(0, 0, 0);
+    margin-left: 1.5625rem;
+    letter-spacing: 0.125rem;
+    font-family: sans-serif;
+  }
+}
+
+  .body-pagos {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .payment-methods {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .payment-method-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 150px;
+            text-align: center;
+        }
+        .payment-method-item img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .payment-method-item p {
+            margin: 0;
+            font-weight: bold;
+            color: #333;
+        }
+
+/*# sourceMappingURL=style.css.map */

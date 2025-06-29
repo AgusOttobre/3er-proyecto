@@ -1,0 +1,16 @@
+  .boton-prod {
+    background-color: rgb(46, 42, 42);
+    color: rgb(241, 234, 234);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  
+
+  .boton-prod:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+    box-shadow: 0 .3125rem .9375rem rgba(0, 0, 0, 0.3);
+  }
+  }

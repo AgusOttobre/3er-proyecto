@@ -1,0 +1,14 @@
+
+ body {
+    background: linear-gradient(rgb(214, 151, 69), transparent, rgba(235, 163, 70, 0.945));
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-attachment: fixed;
+    font-style: italic;
+  }
+      body {
+
+      background: $bg-1;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-attachment: fixed;
+      font-style: italic;
+    }

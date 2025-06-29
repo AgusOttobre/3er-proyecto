@@ -1,0 +1,24 @@
+  header {
+    width: 100%;
+    margin-bottom: .625rem;
+  
+  .header-nav h1 {
+    text-align: center;
+    letter-spacing: .3125rem;
+  }
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-top: 1.5625rem;
+  
+
+  nav ul li {
+    letter-spacing: 0.3125rem;
+  }
+  }
+
