@@ -16,7 +16,7 @@
     margin-bottom: 0.625rem;
   }
 
-  header .header-nav h1 {
+  .header-nav h1 {
     text-align: center;
     letter-spacing: 0.3125rem;
   }
@@ -30,7 +30,7 @@
     margin-top: 1.25rem;
   }
 
-  nav ul nav ul li {
+  nav ul li {
     letter-spacing: 0.3125rem;
   }
 
@@ -92,13 +92,13 @@
     text-align: center;
   }
 
-  .container-sm .container-sm img {
+  .container-sm img {
     width: 5rem;
     height: 5rem;
     margin-top: 0.625rem;
   }
 
-  .container-sm .container-sm p {
+  .container-sm p {
     justify-content: center;
     color: rgb(0, 0, 0);
     margin-top: 0.125rem;
@@ -115,7 +115,7 @@
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
   }
 
-  .boton-prod .boton-prod:hover {
+  .boton-prod:hover {
     background-color: #218838;
     transform: scale(1.02);
     box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.3);
@@ -130,7 +130,7 @@
     margin-top: 0.9375rem;
   }
 
-  .footer .footer ul {
+  .footer ul {
     color: rgb(0, 0, 0);
     margin-left: 1.5625rem;
     letter-spacing: 0.125rem;
@@ -162,13 +162,13 @@
     text-align: center;
   }
 
-  .payment-methods-item .payment-method-item img {
+  .payment-method-item img {
     max-width: 100px;
     height: auto;
     margin-bottom: 10px;
   }
 
-  .payment-methods-item .payment-method-item p {
+  .payment-method-item p {
     margin: 0;
     font-weight: bold;
     color: #333;
